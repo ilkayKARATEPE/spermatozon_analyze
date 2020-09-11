@@ -38,7 +38,7 @@ while True:
     position = (500, 40)
     cv.putText(
         img,
-        "Spermatozan count: " + str(helper_class.noise(img)[1]),  # text
+        "Spermatozan count: " + str(helper_class.pre_processing(img)[1]),  # text
         position,
         cv.FONT_HERSHEY_SIMPLEX,  # font family
         1,  # font size
